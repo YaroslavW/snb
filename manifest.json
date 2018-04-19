@@ -1,0 +1,29 @@
+{
+"name": "Google Button",
+"version": "2.0",
+"manifest_version": 2,
+
+"web_accessible_resources" : [ "social_network.js" ],
+
+ "content_scripts": [
+    {
+      "matches": [ "*://*/*" ],
+      "js": [ "social_network.js" ],
+       "run_at": "document_start"
+     
+    }
+  ],
+   "icons":{
+    
+    "48": "social_network_32.png"
+
+  },
+
+    "page_action": {
+        "default_title": "Google Button",
+        "default_icon" : "social_network_32.png"
+         
+  
+
+        } 
+}
