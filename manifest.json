@@ -1,5 +1,5 @@
 {
-"name": "Google Button",
+"name": "SNB- Social Network Buttons",
 "version": "2.0",
 "manifest_version": 2,
 
@@ -20,7 +20,7 @@
   },
 
     "page_action": {
-        "default_title": "Google Button",
+        "default_title": "SNB- Social Network Buttons",
         "default_icon" : "social_network_32.png"
          
   
